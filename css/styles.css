@@ -1,0 +1,189 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6{
+    font-family: 'Montserrat';
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Container Ssection */
+
+.container-fluid{
+    padding: 7% 12%;
+}
+
+/* Heading section */
+
+.big-heading{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Section style */
+.Colored-Section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.White-Section{
+    background-color: #fff;
+}
+
+/* Navbar Section */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/*  Download Button */
+
+.Download-Button{
+    margin: 5% 3% 5% 0;
+    width: auto;
+}
+
+/* Title Section  */
+
+#title .container-fluid{
+    text-align: left;
+    padding: 3% 12% 7%;
+}
+
+.img-title{
+    position: relative;
+}
+
+.Title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+/* Features Section */
+
+#features{
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 3%;
+}
+
+.feature-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Item */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+}
+
+.princing-column{
+    padding: 3% 2%;;
+}
+
+.pricing-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.pricing-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* CTA section */
+
+
+/* footer section */
+
+.footer-icons{
+    margin: 20px 10px;
+}
+
+
+/* Media Query */
+
+@media (max-width : 991px) {
+    #title{
+        text-align: center;
+    }
+    .Title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
